@@ -8,14 +8,12 @@
                         <img src="<?php echo $ROOT_PATH; ?>/assets/images/logo/cfdinbox-logo.png" width="160" height="48" class="img-fluid" alt="">
                     </div>
 
-                    <h6 class="footer-widget__title mb-20">Información de Contacto</h6>
-
-                    <ul class="footer-widget__list">
-                        <li><?php echo $direccion; ?></li>
-                        <li><a href="mailto:<?php echo $correoElectronico; ?>" class="hover-style-link"><?php echo $correoElectronico; ?></a></li>
-                        <li><a href="tel:<?php echo $numeroTelefono; ?>" class="hover-style-link text-color-primary"><?php echo $numeroTelefono; ?></a></li>
-                        <li><a href="https://epochteca.com/" class="hover-style-link text-color-primary">www.epochteca.com</a></li>
-                    </ul>
+                    <span style="text-align: justify;">
+                        <?php echo $nombreProyecto; ?> es una plataforma especializada en facturación electrónica 4.0, ofreciendo soluciones avanzadas como
+                        timbrado de nómina, almacenamiento y administración de XML, así como validación y timbrado masivo. Con
+                        herramientas eficientes e integración flexible, <?php echo $nombreProyecto; ?> optimiza la gestión fiscal y contable de empresas y
+                        contribuyentes.
+                    </span>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                     <h6 class="footer-widget__title mb-20">Servicios</h6>
@@ -71,7 +69,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center text-md-start">
-                    <span class="copyright-text">&copy; 2024 <a href="https://www.epochteca.com/">Epochteca.</a> Todos los Derechos Reservados.</span>
+                    <span class="copyright-text">&copy; 2024 Todos los Derechos Reservados. Desarrollado por <a href="https://www.epochteca.com/">Epochteca.</a></span>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <ul class="list ht-social-networks solid-rounded-icon">
