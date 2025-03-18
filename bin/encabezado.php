@@ -1,20 +1,6 @@
 <?php
-// nivel 4
-include '../../../bin/datos.php';
-?>
-
-<?php
-// nivel 3
-include '../../bin/datos.php';
-?>
-<?php
-// nivel 2
-include '../bin/datos.php';
-?>
-
-<?php
-// nivel 1
-include 'bin/datos.php';
+// Usa una ruta absoluta para incluir datos.php
+include $_SERVER['DOCUMENT_ROOT'] . '/cfdinbox_publico/bin/datos.php';
 ?>
 
 <!--====================  header area ====================-->
